@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace QueueMergeSort
+namespace KWayMerge
 {
     class Program
     {
@@ -69,6 +69,7 @@ namespace QueueMergeSort
 
             return mergedList;
         }
+
         static void Main(string[] args)
         {
             int size = 10;
